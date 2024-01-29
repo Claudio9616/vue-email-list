@@ -9,6 +9,12 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <div id="root">
+        <ul>
+            <li v-for="userEmail in usersEmail">
+                {{userEmail}}
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
